@@ -1,4 +1,4 @@
-const lista = [
+let lista = [
 
 ]
 function Add() {
@@ -6,6 +6,7 @@ function Add() {
     const texto = input.value
     lista.push(texto)
     localStorage.setItem("listaserie", JSON.stringify(lista))
+    input.value = ""
     // alert(JSON.stringify(lista))
 }
 document.addEventListener("DOMContentLoaded", function () {
@@ -24,5 +25,6 @@ function Random() {
     alert(selectedTVSHOW)
 }
 function Apagao() {
-
+    lista = []
+    localStorage.setItem("listaserie", JSON.stringify(lista))
 }
