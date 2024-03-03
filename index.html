@@ -11,15 +11,20 @@
 </head>
 
 <body>
+    <div class="player">
+        <audio controls autoplay>
+            <source src="Max Verstappen Song.mp3" type="audio/mp3">
+        </audio>
+    </div>
     <br>
     <div class="centralzinha">
         <img src="Clapi.png" alt="Foto da Clapi" id="Foto">
-        <input type="text" id="input">
+        <input type="text" id="input" style="border-radius: 200px">
         <div class="botoes">
-            <button id="add" onclick="Add()">Add</button>
-            <button id="sortizinha" onclick="Random()">I'm feeling lucky!</button>
+            <button id="add" onclick="Add()" class="botao">Add</button>
+            <button id="sortizinha" onclick="Random()" class="botao">I'm feeling lucky!</button>
         </div>
-        <button id="apaga-me" onclick="Apagao()">Apaga-me se for capaz!</button>
+        <button id="apaga-me" onclick="Apagao()" class="botao">Apaga-me se for capaz!</button>
     </div>
 </body>
 
