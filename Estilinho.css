@@ -1,0 +1,28 @@
+#Foto {
+    width: 500px;
+}
+
+.botoes {
+    display: flex;
+    gap: 7px
+}
+
+#add {
+    background-color: bisque;
+}
+
+#sortizinha {
+    background-color: aquamarine;
+}
+
+#apaga-me {
+    background-color: crimson;
+    color: chartreuse;
+}
+
+.centralzinha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
